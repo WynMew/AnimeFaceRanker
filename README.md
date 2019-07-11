@@ -1,7 +1,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 # AnimeFaceRanker
-Check detected Anime Face Quality (delete noise data). Implementated with HRNet
+Check detected Anime Face Quality (delete noise data). Implementated with [HRNet](https://github.com/HRNet/HRNet-Image-Classification)
 
 ## Dependencies
 - Python 3.6+ (Anaconda)
