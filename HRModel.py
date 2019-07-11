@@ -511,7 +511,7 @@ class FeatureExtractionHRNetW30(torch.nn.Module):
                             help='experiment configure file name',
                             # required=True,
                             type=str,
-                            default='experiments/cls_hrnet_w30_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
+                            default='cls_hrnet_w30_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
                             )
         parser.add_argument('--modelDir',
                             help='model directory',
@@ -578,7 +578,7 @@ class FeatureExtractionHRNetW32(torch.nn.Module):
                             help='experiment configure file name',
                             # required=True,
                             type=str,
-                            default='experiments/cls_hrnet_w32_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
+                            default='cls_hrnet_w32_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
                             )
         parser.add_argument('--modelDir',
                             help='model directory',
@@ -643,7 +643,7 @@ class FeatureExtractionHRNetW40(torch.nn.Module):
                             help='experiment configure file name',
                             # required=True,
                             type=str,
-                            default='experiments/cls_hrnet_w40_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
+                            default='cls_hrnet_w40_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
                             )
         parser.add_argument('--modelDir',
                             help='model directory',
@@ -708,7 +708,7 @@ class FeatureExtractionHRNetW44(torch.nn.Module):
                             help='experiment configure file name',
                             # required=True,
                             type=str,
-                            default='experiments/cls_hrnet_w44_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
+                            default='cls_hrnet_w44_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
                             )
         parser.add_argument('--modelDir',
                             help='model directory',
@@ -773,7 +773,7 @@ class FeatureExtractionHRNetW48(torch.nn.Module):
                             help='experiment configure file name',
                             # required=True,
                             type=str,
-                            default='experiments/cls_hrnet_w48_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
+                            default='cls_hrnet_w48_sgd_lr5e-2_wd1e-4_bs32_x100.yaml'
                             )
         parser.add_argument('--modelDir',
                             help='model directory',
