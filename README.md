@@ -10,12 +10,12 @@ Check detected Anime Face Quality (delete noise data). Implementated with [HRNet
 - OpenCV3 (Python)
 
 ## Usage
-### Download Danbooru dataset(or any other dataset you want to process)
+- Download Danbooru dataset(or any other dataset you want to process)
 
-### face detection with [lbpcascade_animeface](https://github.com/nagadomi/lbpcascade_animeface) or [danbooru-utility](https://github.com/reidsanders/danbooru-utility)
+- face detection with [lbpcascade_animeface](https://github.com/nagadomi/lbpcascade_animeface) or [danbooru-utility](https://github.com/reidsanders/danbooru-utility)
 
-### Make your training dataset by hand (Good face detection and bad case, a few thousand each.)
+- Make your training dataset by hand (Good face detection and bad case, a few thousand each.)
 
-### Training with FaceClassifier.py
+- Training with FaceClassifier.py
 
-### Rank your face detection with FaceRanker.py
+- Rank your face detection with FaceRanker.py
