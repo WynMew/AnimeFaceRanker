@@ -14,9 +14,9 @@ Check detected Anime Face Quality (delete noise data). Implementated with [HRNet
 
 - face detection with [lbpcascade_animeface](https://github.com/nagadomi/lbpcascade_animeface) or [danbooru-utility](https://github.com/reidsanders/danbooru-utility)
 
-- Make your training dataset by hand (Good face detection and bad case, a few thousand each.). You may skip this.
+- Make your training dataset by hand (Good face detection and bad case, a few thousand each). You may skip this.
 
-- Training with FaceClassifier.py. you may skip this.
+- Training with FaceClassifier.py. You may skip this.
 
 - Rank your face detection with FaceRanker.py
 
