@@ -23,7 +23,7 @@ codeDict={
 }
 
 class_to_ind = dict(zip(My_CLASSES, range(len(My_CLASSES))))
-weightfile = 'examples/test_HRNet_Face1.pth.tar'
+weightfile = 'test_HRNet_Face1.pth.tar'
 
 margin = 0
 #margin = 80
