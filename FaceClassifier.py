@@ -49,8 +49,8 @@ def transform_train(img, labels):
     ])(img)
     return img, labels
 
-trainset = ListDatasetLite(root='/home/wynmew/data/tachie7.1',
-                    list_file='/home/wynmew/data/tachie7.1/faceCropList', # dataset with neg
+trainset = ListDatasetLite(root='/home/wynmew/data/tachie',
+                    list_file='/home/wynmew/data/tachie/faceCropList', # dataset with neg
                     classes = My_CLASSES,
                     barcode_Dict = codeDict,
                     transform=transform_train)
@@ -133,5 +133,5 @@ for epoch in range(start_epoch, end_epoch + 1):
         #'net': model.module.state_dict(), #DataParallel
         'epoch': epoch,
     }
-    torch.save(state, './examples/'+FilePre+str(epoch)+'.pth.tar')
+    torch.save(state, FilePre+str(epoch)+'.pth.tar')
 print('Done!')
