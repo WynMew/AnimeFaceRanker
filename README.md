@@ -22,6 +22,8 @@ Check detected Anime Face Quality (delete noise data). Implementated with [HRNet
 
 - My [trained model](https://pan.baidu.com/s/1s71jxxTahzT0eyAWtlodhQ). 提取码: hjpn; Eatraction code: hjpn
 
-Good Face Samples: ![alt text](https://pic4.zhimg.com/80/v2-61c43d15ff81f9930597e9c6ce8bf65b_hd.jpg)
+# Good Face Samples: 
+- ![alt text](https://pic4.zhimg.com/80/v2-61c43d15ff81f9930597e9c6ce8bf65b_hd.jpg)
 
-Bad Case: ![alt text](https://pic4.zhimg.com/80/v2-55ba608d71e45baa4a91f51943d23827_hd.jpg)
+# Bad Case:
+- ![alt text](https://pic4.zhimg.com/80/v2-55ba608d71e45baa4a91f51943d23827_hd.jpg)
